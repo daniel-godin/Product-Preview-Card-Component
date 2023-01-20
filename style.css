@@ -1,0 +1,24 @@
+:root {
+    /* Variables */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    --primary-color-dark-cyan: hsl(158, 36%, 37%);
+    --primary-color-cream:  hsl(30, 38%, 92%);
+
+    --neutral-color-very-dark-blue:  hsl(212, 21%, 14%);
+    --neutral-color-dark-grayish-blue:  hsl(228, 12%, 48%);
+    --neutral-color-white:  hsl(0, 0%, 100%);
+
+    --typography-body-copy-font-size-paragraph: 14px;
+    
+    --typography-font-family:  'Montserrat, Fraunces, serif';
+    --typography-font-weight-500: 500;
+    --typography-font-weight-700: 700;
+    --typography-font-family: 'Fraunces', serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap');
+
