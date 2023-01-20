@@ -19,6 +19,62 @@
 
 }
 
+@media screen and (min-width: 401) {
+    #imagePreview {
+        background-image: url(./images/image-product-desktop.jpg);
+    }
+}
+
+@media screen and (max-width: 400) {
+    #imagePreview {
+        background-image: url(./images/image-product-mobile.jpg);
+    }
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.page-container {
+    background-color: var(--primary-color-cream);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container {
+    @media (screen) {
+        
+    }
+}
+
+
+
+
+
+
+
+
 
