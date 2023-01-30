@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css" />
   <title>Frontend Mentor | Product preview card component</title>
+
 </head>
 <body>
 <div class="page-container">
 
   <div class="card-container">
     <div class="image-container">
-      <img id="imagePreview" alt="Preview Image" />
-
+      <picture>
+        <source src="./images/image-product-mobile.jpg" media="(max-width: 400px)" />
+        <img src="./images/image-product-desktop.jpg" alt="Preview Image" />
+      </picture>
     </div>
 
     <div class="card">
